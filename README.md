@@ -29,7 +29,8 @@ By default, we install to `/usr/local`.
 If you'd like to change the installation location, run `sudo DESTDIR=/path/to/install make install` as desired. [[1]](https://github.com/cs50/libcs50)
 
 ### Troubleshooting
-Error 1:
+Error 1: header file not found
+ex.
 ```
 src/cs50.c:41:10: fatal error: 'ctype.h' file not found.
 ```
