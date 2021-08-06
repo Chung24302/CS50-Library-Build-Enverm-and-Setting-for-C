@@ -33,10 +33,9 @@ Error 1:
 ```
 src/cs50.c:41:10: fatal error: 'ctype.h' file not found.
 ```
-Missing stdlib?
 
-My error 1's Solution:
-Install gcc libray to fix it.
+Solution:
+I think I don't have C library  in my system, just install gcc library  to fix it.
 ```
 sudo apt install gcc
 ```
