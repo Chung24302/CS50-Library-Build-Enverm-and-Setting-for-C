@@ -1,4 +1,4 @@
-# CS50-Library-Build-Enverm-and-Setting-for-C
+# CS50-Library-Build-Environment-and-Setting-for-C
 
 ### Install packages
 Install make, if you Not installed it.
