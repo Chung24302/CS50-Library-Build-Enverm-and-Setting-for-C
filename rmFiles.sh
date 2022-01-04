@@ -6,5 +6,7 @@ echo "Make sure your files what you need will not in it."
 read -p "Are you sure to delete folder? (y/n) : " ans
 if [ "$ans" = "y" ] || [ "$ans" = "Y" ] || [ "$ans" = "yes" ] || [ "$ans" = "Yes" ] || [ "$ans" = "YES" ] ;
 then
-    sudo rm -rf $DIR
+     cd $HOME;
+     sudo rm -rf $DIR;
 fi
+exec bash
